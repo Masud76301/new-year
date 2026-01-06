@@ -1,0 +1,43 @@
+
+*{
+    margin:0px;
+}
+
+.content{
+    max-width:1065px;
+    margin:0px auto;
+}
+.banner{
+    height: 800px;
+    background-image:url('/images/banner/banner1.png');
+    position:relative;
+}
+.banner-content{
+    
+    position: absolute;
+    top:216px;
+    right:215px;
+    width:525px;
+}
+.banner h1{
+    width:525px;
+    font-size: 65px;
+    font-weight: bold;
+    text-align:right;
+    margin-right: 230px;
+    margin-bottom:24px;
+}
+.banner p{
+    width:462px;
+    float:right;
+    text-align: right;
+    margin-right:0px; 
+    color:#444343;
+    font-size:16px;
+    
+}
+
+.banner .btn{
+    float:right;
+    margin-top:32px;
+}
