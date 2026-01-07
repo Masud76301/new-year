@@ -2,14 +2,10 @@
 *{
     margin:0px;
 }
-
-.content{
-    max-width:1065px;
-    margin:0px auto;
-}
+    
 .banner{
     height: 800px;
-    background-image:url('/images/banner/banner1.png');
+    background-image: url('../images/banner/banner1.png');
     display:flex;
     justify-content: flex-end;
     align-items: center;
@@ -45,3 +41,33 @@
     font-weight:400;
   
 }
+
+main{
+    max-width:1065px;
+    margin:0px auto;
+}
+.previous-year{
+    display:flex;
+    margin-top:130px;
+    justify-content: space-around;
+    align-items:center;
+}
+.reason{
+    width:416px;
+}
+.reason h1{
+    font-size:40px;
+    font-weight: bold;
+    width:288px;
+    margin-bottom: 24px;
+}
+
+.reason p{
+    font-size:16px;
+    font-weight: 400;
+    width:416px;
+    margin-bottom: 24px;
+    color:#444343;
+    line-height: 26px;
+}
+
